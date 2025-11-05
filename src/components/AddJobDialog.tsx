@@ -122,7 +122,7 @@ export function AddJobDialog({
               <Dialog.Close asChild>
                 <button
                   type="button"
-                  className="px-3 py-2 rounded bg-black hover:bg-gray-700"
+                  className="px-3 py-2 rounded text-white bg-black hover:bg-gray-700"
                 >
                   Cancel
                 </button>
