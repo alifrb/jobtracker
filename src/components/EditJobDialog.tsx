@@ -19,7 +19,6 @@ export function EditJobDialog({
   const [status, setStatus] = useState<Status>("Prospect");
   const [location, setLocation] = useState("");
 
-  // وقتی job عوض شد، فرم پر شود
   useEffect(() => {
     if (job) {
       setRole(job.role);

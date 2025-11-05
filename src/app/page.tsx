@@ -272,7 +272,6 @@ export default function Page() {
 
   return (
     <div className="min-h-screen bg-[#f3f4f6] text-slate-900">
-      {/* Topbar fixed height (64px) for consistent sticky offsets */}
       <header className="sticky top-0 z-40 bg-[#0b1220]/0">
         <div className="h-16">
           <Topbar
@@ -282,7 +281,6 @@ export default function Page() {
         </div>
       </header>
 
-      {/* Layout: desktop sidebar + main; mobile only uses drawer */}
       <div className="flex">
         <div className="flex-none">
           <Sidebar

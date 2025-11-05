@@ -19,9 +19,9 @@ export type SidebarProps = {
   dueTodayCount: number;
   overdueCount: number;
   onSelectView: (mode: ViewMode) => void;
-  currentView: ViewMode; // ⬅️ کلید
+  currentView: ViewMode;
   variant?: "desktop" | "mobile";
-  onNavigate?: () => void; // برای بستن Drawer روی موبایل
+  onNavigate?: () => void;
 };
 
 export default function Sidebar({
